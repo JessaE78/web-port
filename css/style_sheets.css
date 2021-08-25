@@ -1,0 +1,163 @@
+:root{
+    --ff-primary: 'Roboto', sans-serif;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+body{
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+}
+
+h2{
+    font-size: var(--fs-h2);
+}
+
+h3{
+    font-size: var(--fs-h3);
+}
+
+.header_top{
+    position: fixed;
+    top: 0;
+    left: 0;   
+    width: 100%;
+    height: 50px;
+    background-color: rgb(83,83,83);
+}
+.logo{
+    /*background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);*/
+    background-image: url(../images/circuits.jpg);
+    width: 100%;
+    height: 50rem;
+
+    
+}
+
+.center_logo{
+    height: 250px;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px;
+    position: absolute;
+    top: 50%;
+    width: 250px;
+    border: 5px solid rgb(83,83,83);
+    border-radius: 20px;
+
+}
+
+.intro{
+    background-color: white;
+}
+
+.title_quote{
+    
+    font-size: var(--fs-h1);
+    text-align: center;
+    position: relative;
+    top: 40rem;
+}
+
+.section_block{
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.text_block{
+    float: right;
+    width: 40%;
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 475px;
+    margin: 20px;
+    
+    margin-bottom: 80px;
+    background-color: #e9e9e9;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+.headshot_img{
+    float: right;
+    width: 25%;
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 475px;
+    margin: 20px;
+    background: url(../images/headshot.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.project_img{
+    display: block;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.project_box{
+    float: left;
+    position: relative;
+    width: 21%;
+    margin: 20px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 20px;
+    
+}
+
+.project_box:hover .overlay{
+    opacity: 1;
+}
+
+.text{
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: var(--fs-body);
+}
+
+.project_title{
+    text-decoration: underline;
+}
+
+.personal{
+    background-color: rgb(235, 127, 127);
+}
+
+.school{
+    background-color: rgb(201, 172, 46);
+}
+
+.extracurr{
+    background-color: rgb(117, 95, 241);
+}
+
