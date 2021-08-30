@@ -109,9 +109,10 @@ h3{
     float: left;
     position: relative;
     width: 21%;
-    margin: 20px;
+    margin: 37px;
     height: 250px;
     border-radius: 20px;
+    
 }
 
 .overlay{
@@ -136,7 +137,7 @@ h3{
     color: white;
     font-size: 1rem;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -147,6 +148,10 @@ h3{
 
 .project_title{
     text-decoration: underline;
+}
+
+.project_caption{
+    text-align: center;
 }
 
 .personal{
